@@ -1,0 +1,13 @@
+enabledCommands:
+- help
+- msg
+- mining
+rewards:
+- REDSTONE_ORE 5
+- GOLD_ORE 10
+- DIAMOND_ORE 50
+blockWeights:
+- STONE 60
+- REDSTONE_ORE 20
+- GOLD_ORE 15
+- DIAMOND_ORE 5

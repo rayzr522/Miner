@@ -1,0 +1,10 @@
+name: Miner
+main: com.rayzr522.miner.Miner
+version: 0.0.1
+description: A non-competitive mining game
+author: Rayzr522
+loadafter: [Multiverse-Core]
+commands:
+  miner:
+    description: Main command for Miner
+    aliases: min, mn
