@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rayzr522.miner</groupId>
   <artifactId>Miner</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>Miner</name>
   <description>A non-competitive mining game</description>
 
@@ -34,18 +34,13 @@
   </repositories>
 
   <build>
-    <finalName>Miner</finalName>
+    <finalName>${project.name}-${project.version}</finalName>
     <defaultGoal>clean package</defaultGoal>
-    <sourceDirectory>src/main/java</sourceDirectory>
+    <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
     <resources>
       <resource>
-	<targetPath>.</targetPath>
 	<filtering>true</filtering>
 	<directory>${basedir}/src/main/resources/</directory>
-	<includes>
-	  <include>plugin.yml</include>
-	  <include>config.yml</include>
-	</includes>
       </resource>
     </resources>
     <plugins>

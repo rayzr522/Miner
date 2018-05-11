@@ -1,8 +1,9 @@
 name: Miner
 main: com.rayzr522.miner.Miner
-version: 0.0.1
+version: ${project.version}
 description: A non-competitive mining game
 author: Rayzr522
+depend: [Vault]
 loadafter: [Multiverse-Core]
 commands:
   miner:
