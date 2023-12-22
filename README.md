@@ -9,7 +9,3 @@ Miner provides you a Prison-like experience, giving you monetary rewards in a ra
 Just grab the latest off of the [releases page](https://github.com/Rayzr522/Miner/releases) and drop it in your server's plugin folder. After restarting, the plugin should be loaded.
 
 **Note:** This plugin requires [Vault!](http://dev.bukkit.org/projects/vault)
-
-## Join Me
-
-[![Discord Badge](https://github.com/Rayzr522/ProjectResources/raw/master/RayzrDev/badge-small.png)](https://discord.io/rayzrdevofficial)
